@@ -1,61 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valorant Agent Picker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <h1>VALORANT AGENT PICKER</h1>
 
-<div class="container">
-    <h1>VALORANT AGENT PICKER</h1>
+        <select id="map">
+            <option value="Ascent">Ascent</option>
+            <option value="Haven">Haven</option>
+            <option value="Split">Split</option>
+            <option value="Lotus">Lotus</option>
+            <option value="Sunset">Sunset</option>
+            <option value="Breeze">Breeze</option>
+            <option value="Summit">Summit</option>
+        </select>
 
-    <select id="map">
-        <option value="Ascent">Ascent</option>
-        <option value="Haven">Haven</option>
-        <option value="Split">Split</option>
-        <option value="Lotus">Lotus</option>
-        <option value="Sunset">Sunset</option>
-        <option value="Breeze">Breeze</option>
-        <option value="Summit">Summit</option>
-    </select>
+        <button onclick="pickAgent()">SELECT AGENT</button>
 
-    <button onclick="pickAgent()">SELECT AGENT</button>
+        <h2 id="result">Choose your map</h2>
+    </div>
 
-    <h2 id="result">Choose your map</h2>
-</div>
-
-<script src="script.js"></script>
-
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-    <title>Valorant Agent Picker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="container">
-    <h1>VALORANT AGENT PICKER</h1>
-
-    <select id="map">
-        <option value="Ascent">Ascent</option>
-        <option value="Haven">Haven</option>
-        <option value="Split">Split</option>
-        <option value="Lotus">Lotus</option>
-        <option value="Sunset">Sunset</option>
-        <option value="Breeze">Breeze</option>
-        <option value="Summit">Summit</option>
-    </select>
-
-    <button onclick="pickAgent()">SELECT AGENT</button>
-
-    <h2 id="result">Choose your map</h2>
-</div>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
+
